@@ -1,1 +1,2 @@
 # GRAPHQL
+* REST vs GraphQL
