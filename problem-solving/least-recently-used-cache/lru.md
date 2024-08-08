@@ -89,7 +89,7 @@ func (l *LRUCache) Get(k int) (int, bool) {
 }
 ```
 
-This is how we can implement LRU cache in Go using maps. You can find the full code here.
+This is how we can implement LRU cache in Go using maps. You can find the full code [here](https://github.com/goschool-dev/blog/blob/master/problem-solving/least-recently-used-cache/lru-maps.go).
 
 This way of implementing LRU involves maintaining order of keys based on recent usage and shifting keys in the slice, which can be less efficient for large caches.
 Let's implement it again using doubly linked list. Here we will use the "contianer/list" package which implements a doubly linked list. 
@@ -147,4 +147,4 @@ func (l *LRUCache) Get(key int) (int, bool) {
 
 In this way we can implement Least recently used cache in Golang. The doubly linked list approach is generally preferred in practice due to its efficiency, especially for larger caches where performance is crucial. However, for simpler or smaller use cases, the map and slice approach might be sufficient and more straightforward.
 
-You can find the full code here.
+You can find the full code [here](https://github.com/goschool-dev/blog/blob/master/problem-solving/least-recently-used-cache/lru-dll.go).
