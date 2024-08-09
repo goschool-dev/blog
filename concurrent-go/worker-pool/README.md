@@ -137,3 +137,5 @@ func main() {
 ```
 
 The main function creates a worker pool with 3 workers and submits 10 tasks. It waits for a while to simulate task processing abd stops the worker pool and waits for all workers to complete. This approach ensures that all tasks are processed concurrently by a fixed number of workers and that the pool shuts down gracefully once all tasks are completed.
+
+Worker pools are versatile and can be used in various scenarios where tasks can be performed concurrently. By managing a fixed number of workers and using channels to handle tasks, you can efficiently utilize system resources, improve performance, and ensure that your application remains responsive and scalable.
