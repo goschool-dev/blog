@@ -57,4 +57,84 @@ Assume a cigarette requires three ingredients to make and smoke: tobacco, paper,
 
 13. Launch multiple Goroutines and each goroutine adding values to a Channel.
 
-14. 
+14. Rate Limiter
+```
+Create a rate limiter that restricts the number of requests processed over a time window. Use a goroutine to check and manage the allowed rate of incoming requests.
+```
+
+15. Web Crawler
+```
+Write a simple web crawler that fetches URLs concurrently. Use goroutines for fetching and channels to communicate the results. Implement a way to limit the number of concurrent requests.
+```
+
+16. Bank Account
+```
+Implement a bank account with deposit and withdrawal methods. Use goroutines to perform these operations concurrently and ensure that the balance remains consistent.
+```
+
+17. Fan-Out, Fan-In
+```
+Create a fan-out, fan-in pattern where multiple goroutines process tasks concurrently, and their results are collected into a single channel. This can be applied to tasks like processing data in parallel.
+```
+
+18. File Downloader
+```
+Implement a file downloader that can download multiple files concurrently. Use goroutines for each download and channels to report progress or completion.
+```
+
+19.  Event Counter
+```
+Create a service that counts events coming from multiple sources concurrently. Use goroutines to process events from each source and aggregate the counts.
+```
+
+20. Image Processing Pipeline
+```
+Build an image processing pipeline where multiple goroutines handle different stages of processing (e.g., loading, filtering, saving). Use channels to pass images between stages.
+```
+
+21. Task Queue
+```
+Implement a task queue system where tasks are submitted by one or more producers and processed by multiple worker goroutines. Ensure proper synchronization and error handling.
+```
+
+22. Concurrency Limit
+```
+Write a program that limits the number of concurrent operations to a specified maximum. For example, manage a pool of worker goroutines that handle incoming tasks without exceeding the limit.
+```
+
+23. Blocking and Non-blocking Channels
+```
+Create a scenario where you demonstrate the difference between blocking and non-blocking channels. Implement a simple producer-consumer model and explore the effects of buffer sizes.
+```
+
+24. Timeouts and Contexts
+```
+Implement a function that fetches data from multiple URLs with timeouts. Use context.Context to manage the deadlines and cancel operations if they exceed the timeout.
+```
+25. Monitoring Goroutines
+```
+Develop a simple monitoring tool that tracks the number of running goroutines and displays it at regular intervals. This will help you understand goroutine lifecycles and resource usage.
+```
+26. Concurrent Fibonacci Calculation
+```
+Write a function that computes Fibonacci numbers concurrently. Use goroutines for each computation and a channel to collect results, demonstrating parallelism.
+```
+27. State Machine
+```
+Create a finite state machine that processes events concurrently. Use goroutines to handle transitions and ensure that the state remains consistent.
+```
+28. Stock Price Monitor
+```
+Implement a service that monitors stock prices from multiple sources concurrently. Use goroutines to fetch data and channels to aggregate updates.
+```
+22. Game State Synchronization
+```
+Create a simple multiplayer game backend where multiple players can perform actions concurrently. Use goroutines to handle player actions and synchronize game state.
+```
+23. Parallel Sorting
+```
+Implement a parallel sorting algorithm using goroutines. Divide the input data into chunks, sort them concurrently, and merge the results.
+```
+24. Deadlock Detection
+```Design a simple system where you intentionally create deadlocks, then implement a way to detect and resolve them. This will help you understand deadlock conditions in Go.
+```
