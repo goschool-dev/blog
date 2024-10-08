@@ -104,7 +104,8 @@ Write a program that limits the number of concurrent operations to a specified m
 
 23. Blocking and Non-blocking Channels
 ```
-Create a scenario where you demonstrate the difference between blocking and non-blocking channels. Implement a simple producer-consumer model and explore the effects of buffer sizes.
+Create a scenario where you demonstrate the difference between blocking and non-blocking channels. 
+Implement a simple producer-consumer model and explore the effects of buffer sizes.
 ```
 
 24. Timeouts and Contexts
