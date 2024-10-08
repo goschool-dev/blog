@@ -127,14 +127,15 @@ Create a finite state machine that processes events concurrently. Use goroutines
 ```
 Implement a service that monitors stock prices from multiple sources concurrently. Use goroutines to fetch data and channels to aggregate updates.
 ```
-22. Game State Synchronization
+29. Game State Synchronization
 ```
 Create a simple multiplayer game backend where multiple players can perform actions concurrently. Use goroutines to handle player actions and synchronize game state.
 ```
-23. Parallel Sorting
+30. Parallel Sorting
 ```
 Implement a parallel sorting algorithm using goroutines. Divide the input data into chunks, sort them concurrently, and merge the results.
 ```
-24. Deadlock Detection
-```Design a simple system where you intentionally create deadlocks, then implement a way to detect and resolve them. This will help you understand deadlock conditions in Go.
+31. Deadlock Detection
+```
+Design a simple system where you intentionally create deadlocks, then implement a way to detect and resolve them. This will help you understand deadlock conditions in Go.
 ```
